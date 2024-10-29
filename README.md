@@ -5,9 +5,11 @@ This repository contains all the materials and exercises for the **Computer Arch
 ## ⚠️ Important Notice
 
 > **Note:** The current implementation is not fully up to date. Modifications will follow to address all outstanding issues.
+
 > **Note:** The pulling and data collection from all submodules works, but managing the personal branch for developing personal modifications is still not functioning.
 
 ## Table of Contents
+
 - [Overview](#overview)
 - [Structure](#structure)
 - [Usage](#usage)
@@ -30,7 +32,7 @@ By using a script to manage submodules, the repository ensures that all dependen
 - `Exercises/`: Contains all exercise repositories.
 - `urls.txt`: A file containing all repository URLs and their custom names.
 - `manage_submodules.sh`: A script used to automatically clone and update all submodules (laboratories and exercises).
-  
+
 ## Usage
 
 ### Cloning the Repository
@@ -63,46 +65,46 @@ To work on the exercises and make your own modifications without affecting the m
 
 1. Switch to the `main` branch (if you're not already on it):
 
-    ```bash
-    git checkout main
-    ```
-    
+   ```bash
+   git checkout main
+   ```
+
 2. Create and switch to a new branch called `personal`:
 
-    ```bash
-    git checkout -b personal
-    ```
-    
+   ```bash
+   git checkout -b personal
+   ```
+
 3. Make your changes and commit them:
 
-    ```bash
-    git add .
-    git commit -m "My modifications to the exercises"
-    ```
+   ```bash
+   git add .
+   git commit -m "My modifications to the exercises"
+   ```
 
 4. Push your personal `branch` to GitHub:
 
-    ```bash
-    git push -u origin personal
-    ```
-    
+   ```bash
+   git push -u origin personal
+   ```
+
 Once the branch is pushed, you will be able to switch between the `main` and `personal` branches in GitHub and view your modifications by selecting the corresponding branch.
 
 ## Current Repositories
 
 Below is the current list of repositories managed by the script:
 
-| Type      | Repository URL                                                                                      | Custom Name             |
-|-----------|-----------------------------------------------------------------------------------------------------|-------------------------|
-| CAOS      | [CAOS Repository](https://baltig.polito.it/teaching-material/CAOS.git)                            | CAOS Repository         |
-| Lab       | [Lab1 - Setup](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab-1-setup.git)      | Lab1 - Setup            |
-| Lab       | [Lab2 - baremetal](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab2-baremetal.git) | Lab2 - baremetal        |
-| Lab       | [Lab3 - FreeRTOS](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab3-freertos.git)  | Lab3 - FreeRTOS        |
-| Exercise  | [ARM Bare Metal](https://baltig.polito.it/teaching-material/exercises-caos-and-os/arm-bare-metal.git) | ARM Bare Metal          |
-| Exercise  | [CrossCompilation](https://baltig.polito.it/teaching-material/exercises-caos-and-os/crosscompilation.git) | CrossCompilation        |
-| Exercise  | [FreeRTOS_HelloWorld](https://baltig.polito.it/teaching-material/exercises-caos-and-os/freertos_helloworld.git) | FreeRTOS_HelloWorld    |
-| Exercise  | [MyFirstOS](https://baltig.polito.it/teaching-material/exercises-caos-and-os/myfirstos.git)      | MyFirstOS               |
-| Exercise  | [Process Scheduling](https://baltig.polito.it/teaching-material/exercises-caos-and-os/process-scheduling.git) | Process Scheduling       |
+| Type     | Repository URL                                                                                                  | Custom Name         |
+| -------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
+| CAOS     | [CAOS Repository](https://baltig.polito.it/teaching-material/CAOS.git)                                          | CAOS Repository     |
+| Lab      | [Lab1 - Setup](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab-1-setup.git)                     | Lab1 - Setup        |
+| Lab      | [Lab2 - baremetal](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab2-baremetal.git)              | Lab2 - baremetal    |
+| Lab      | [Lab3 - FreeRTOS](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab3-freertos.git)                | Lab3 - FreeRTOS     |
+| Exercise | [ARM Bare Metal](https://baltig.polito.it/teaching-material/exercises-caos-and-os/arm-bare-metal.git)           | ARM Bare Metal      |
+| Exercise | [CrossCompilation](https://baltig.polito.it/teaching-material/exercises-caos-and-os/crosscompilation.git)       | CrossCompilation    |
+| Exercise | [FreeRTOS_HelloWorld](https://baltig.polito.it/teaching-material/exercises-caos-and-os/freertos_helloworld.git) | FreeRTOS_HelloWorld |
+| Exercise | [MyFirstOS](https://baltig.polito.it/teaching-material/exercises-caos-and-os/myfirstos.git)                     | MyFirstOS           |
+| Exercise | [Process Scheduling](https://baltig.polito.it/teaching-material/exercises-caos-and-os/process-scheduling.git)   | Process Scheduling  |
 
 ## Contributing
 
