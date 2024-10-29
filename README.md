@@ -109,7 +109,7 @@ Feel free to fork the repository and make pull requests to improve the workflow 
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more details.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ### How to Use
 
