@@ -12,11 +12,11 @@ This repository contains all the materials and exercises for the **Computer Arch
 
 - [Overview](#overview)
 - [Structure](#structure)
+- [Current Repositories](#current-repositories)
 - [Usage](#usage)
   - [Cloning the Repository](#cloning-the-repository)
   - [Running the Update Script](#running-the-update-script)
   - [Creating a Personal Branch](#creating-a-personal-branch)
-- [Current Repositories](#current-repositories)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -32,6 +32,22 @@ By using a script to manage submodules, the repository ensures that all dependen
 - `Exercises/`: Contains all exercise repositories.
 - `urls.txt`: A file containing all repository URLs and their custom names.
 - `manage_submodules.sh`: A script used to automatically clone and update all submodules (laboratories and exercises).
+
+## Current Repositories
+
+Below is the current list of repositories managed by the script:
+
+| Type     | Repository URL                                                                                                  | Custom Name         |
+| -------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
+| CAOS     | [CAOS Repository](https://baltig.polito.it/teaching-material/CAOS.git)                                          | CAOS Repository     |
+| Lab      | [Lab1 - Setup](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab-1-setup.git)                     | Lab1 - Setup        |
+| Lab      | [Lab2 - baremetal](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab2-baremetal.git)              | Lab2 - baremetal    |
+| Lab      | [Lab3 - FreeRTOS](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab3-freertos.git)                | Lab3 - FreeRTOS     |
+| Exercise | [ARM Bare Metal](https://baltig.polito.it/teaching-material/exercises-caos-and-os/arm-bare-metal.git)           | ARM Bare Metal      |
+| Exercise | [CrossCompilation](https://baltig.polito.it/teaching-material/exercises-caos-and-os/crosscompilation.git)       | CrossCompilation    |
+| Exercise | [FreeRTOS_HelloWorld](https://baltig.polito.it/teaching-material/exercises-caos-and-os/freertos_helloworld.git) | FreeRTOS_HelloWorld |
+| Exercise | [MyFirstOS](https://baltig.polito.it/teaching-material/exercises-caos-and-os/myfirstos.git)                     | MyFirstOS           |
+| Exercise | [Process Scheduling](https://baltig.polito.it/teaching-material/exercises-caos-and-os/process-scheduling.git)   | Process Scheduling  |
 
 ## Usage
 
@@ -89,22 +105,6 @@ To work on the exercises and make your own modifications without affecting the m
    ```
 
 Once the branch is pushed, you will be able to switch between the `main` and `personal` branches in GitHub and view your modifications by selecting the corresponding branch.
-
-## Current Repositories
-
-Below is the current list of repositories managed by the script:
-
-| Type     | Repository URL                                                                                                  | Custom Name         |
-| -------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
-| CAOS     | [CAOS Repository](https://baltig.polito.it/teaching-material/CAOS.git)                                          | CAOS Repository     |
-| Lab      | [Lab1 - Setup](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab-1-setup.git)                     | Lab1 - Setup        |
-| Lab      | [Lab2 - baremetal](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab2-baremetal.git)              | Lab2 - baremetal    |
-| Lab      | [Lab3 - FreeRTOS](https://baltig.polito.it/teaching-material/labs-caos-and-os/lab3-freertos.git)                | Lab3 - FreeRTOS     |
-| Exercise | [ARM Bare Metal](https://baltig.polito.it/teaching-material/exercises-caos-and-os/arm-bare-metal.git)           | ARM Bare Metal      |
-| Exercise | [CrossCompilation](https://baltig.polito.it/teaching-material/exercises-caos-and-os/crosscompilation.git)       | CrossCompilation    |
-| Exercise | [FreeRTOS_HelloWorld](https://baltig.polito.it/teaching-material/exercises-caos-and-os/freertos_helloworld.git) | FreeRTOS_HelloWorld |
-| Exercise | [MyFirstOS](https://baltig.polito.it/teaching-material/exercises-caos-and-os/myfirstos.git)                     | MyFirstOS           |
-| Exercise | [Process Scheduling](https://baltig.polito.it/teaching-material/exercises-caos-and-os/process-scheduling.git)   | Process Scheduling  |
 
 ## Contributing
 
