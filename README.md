@@ -59,7 +59,7 @@ The script will:
 1. Clone any missing repositories into the `Laboratories/` and `Exercises/` directories.
 2. Pull updates for existing repositories.
 
-### Creating a Personal Branch
+### Creating a Personal Branch <span style="color:red">Not working!</span>
 
 To work on the exercises and make your own modifications without affecting the main repository, follow these steps to create a new `personal` branch:
 
