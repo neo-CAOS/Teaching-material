@@ -1,0 +1,27 @@
+[submodule "CAOS"]
+    path = CAOS
+    url = https://baltig.polito.it/teaching-material/CAOS.git
+[submodule "Laboratories/Lab1 - Setup"]
+    path = Laboratories/Lab1 - Setup
+    url = https://baltig.polito.it/teaching-material/labs-caos-and-os/lab-1-setup.git
+[submodule "Laboratories/Lab2 - baremetal"]
+    path = Laboratories/Lab2 - baremetal
+    url = https://baltig.polito.it/teaching-material/labs-caos-and-os/lab2-baremetal.git
+[submodule "Laboratories/Lab3 - FreeRTOS"]
+    path = Laboratories/Lab3 - FreeRTOS
+    url = https://baltig.polito.it/teaching-material/labs-caos-and-os/lab3-freertos.git
+[submodule "Exercises/ARM Bare Metal"]
+    path = Exercises/ARM Bare Metal
+    url = https://baltig.polito.it/teaching-material/exercises-caos-and-os/arm-bare-metal.git
+[submodule "Exercises/CrossCompilation"]
+    path = Exercises/CrossCompilation
+    url = https://baltig.polito.it/teaching-material/exercises-caos-and-os/crosscompilation.git
+[submodule "Exercises/FreeRTOS_HelloWorld"]
+    path = Exercises/FreeRTOS_HelloWorld
+    url = https://baltig.polito.it/teaching-material/exercises-caos-and-os/freertos_helloworld.git
+[submodule "Exercises/MyFirstOS"]
+    path = Exercises/MyFirstOS
+    url = https://baltig.polito.it/teaching-material/exercises-caos-and-os/myfirstos.git
+[submodule "Exercises/Process Scheduling"]
+    path = Exercises/Process Scheduling
+    url = https://baltig.polito.it/teaching-material/exercises-caos-and-os/process-scheduling.git
