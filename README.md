@@ -5,6 +5,7 @@ This repository contains all the materials and exercises for the **Computer Arch
 ## ⚠️ Important Notice
 
 > **Note:** The current implementation is not fully up to date. Modifications will follow to address all outstanding issues.
+> **Note:** The pulling and data collection from all submodules works, but managing the personal branch for developing personal modifications is still not functioning.
 
 ## Table of Contents
 - [Overview](#overview)
