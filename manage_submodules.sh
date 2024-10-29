@@ -116,6 +116,8 @@ clone_or_pull() {
     fi
 }
 
+# TODO: remove .DS_Store files every time the file is runned
+
 # Ensure that the 'Laboratories' and 'Exercises' directories exist
 check_and_create_dir "Laboratories"
 check_and_create_dir "Exercises"
