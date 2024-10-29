@@ -40,8 +40,8 @@ By using a script to manage submodules, the repository ensures that all dependen
 To clone the repository along with all the submodules:
 
 ```bash
-git clone --recurse-submodules https://github.com/eliainnocenti/Computer-Architectures-and-Operating-Systems.git
-cd Computer-Architectures-and-Operating-Systems
+git clone --recurse-submodules https://github.com/neo-CAOS/Teaching-material.git
+cd Teaching-material
 ```
 
 ### Running the Update Script
